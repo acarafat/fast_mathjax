@@ -1,5 +1,5 @@
 # Fast MathJax
-A simple plugin to enable MathJax in WordPress posts that contain LaTeX equations.
+A simple plugin to enable MathJax by a shortcode in WordPress posts that contain LaTeX equations.
 
 # Discription
 The plugin won't load MathJax JS globally on the WordPress site. To load MathJax in a specific post, the shortcode `[mathjax]` is needed to be placed anywhere in the post.
