@@ -3,7 +3,7 @@
 /*
 Plugin Name: Fast MathJax
 Plugin URI: https://github.com/acarafat/fast_mathjax/
-Description: A plugin to use simple shortcode to load MathJax in WordPress post.
+Description: A plugin to use simple shortcode to load MathJax in WordPress posts.
 Version: 1.0
 Author: Arafat Rahman
 Author URI: https://bigganblog.org
