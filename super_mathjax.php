@@ -14,9 +14,6 @@ License: GPLv3
 
 */
 
-?>
-
-
 add_action(‘init’, ‘addMathJaxConfig’);
   function addMathJaxConfig() {
   //some code here
