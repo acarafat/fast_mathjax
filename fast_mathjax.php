@@ -35,3 +35,5 @@ function addMathJaxConfig() {
 }
 
 add_shortcode('fastmath','addMathJaxConfig');
+
+?>
