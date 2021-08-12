@@ -1,2 +1,2 @@
-# fast_mathjax
-Superfast MathJax-Latex Plugin for Wordpress
+# Fast MathJax
+## Superfast MathJax-Latex Plugin for Wordpress
