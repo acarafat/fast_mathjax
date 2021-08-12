@@ -15,3 +15,13 @@ License: GPLv3
 */
 
 ?>
+
+
+add_action(‘init’, ‘addMathJaxConfig’);
+  function addMathJaxConfig() {
+  //some code here
+  echo "Config will be added";
+
+}
+
+add_shortcode( 'supermathjax’, ‘addMathJaxConfig’ );
