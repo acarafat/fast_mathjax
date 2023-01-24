@@ -1,5 +1,5 @@
 === Fast MathJax ===
-Contributors: Arafat Rahman, Mubtasim Fuad
+Contributors: acarafat, Mubtasim Fuad
 Donate link: https://www.paypal.com/paypalme/arft
 Tags: mathjax, latex
 Requires at least: 5.0
