@@ -6,7 +6,7 @@ Plugin URI: https://github.com/acarafat/fast_mathjax/
 Description: Enable MathJax by a shortcode in WordPress posts that contain LaTeX equations.
 Version: 1.0
 Author: Arafat Rahman, Mubtasim Fuad
-Author URI: https://bigganblog.org
+Author URI: https://arftrhmn.net/, https://mubtasimfuad.com/
 License: GPLv3
 */
 
