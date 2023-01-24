@@ -9,10 +9,10 @@ Stable tag: trunk
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-A MathJax plugin to show beautiful LaTex without slowing your website.
+A MathJax plugin to show beautiful LaTeX without slowing your website.
 
 == Description ==
-Want a MathJax plugin to show beautiful LaTex without slowing your website? Fast Mathjax will do that for you. 
+Want a MathJax plugin to show beautiful LaTeX without slowing your website? Fast Mathjax will do that for you. 
 
 Just add [mathjax] shortcode in the post or page you want to show a LaTex. MathJax will load only in that post or page. 
 
