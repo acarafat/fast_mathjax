@@ -1,6 +1,8 @@
 === Fast MathJax ===
 Contributors: acarafat, rafisics
 Donate link: https://www.paypal.com/paypalme/arft
+
+Plugin Name: Fast MathJax
 Tags: mathjax, latex
 Stable tag: 1.0
 Requires at least: 5.0
