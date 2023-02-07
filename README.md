@@ -11,3 +11,6 @@ Then, the following LaTeX syntaxes for inline and display math can be used there
 - Display Math: 
   - `$$E=mc^2$$` 
   - `\[E=mc^2\]`
+
+# Example
+**Mass in Special Relativity: Is Relativistic Mass Real?** by *Mubtasim Fuad* published in [SciTechFrontiers.com](https://scitechfrontiers.com/relativistic-mass/)
