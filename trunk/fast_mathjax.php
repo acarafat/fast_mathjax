@@ -13,24 +13,13 @@ License: GPLv3
 add_action(‘init’, ‘addMathJaxConfig’);
 
 function addMathJaxConfig() {
-  return "
-  <script src=\"https://polyfill.io/v3/polyfill.min.js?features=es6\"></script> \n 
-  <script type=\"text/javascript\" id=\"MathJax-script\" async src=\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js\"></script> \n 
-  <script> \n 
-	  window.MathJax = { \n 
-		  tex: { \n 
-			  inlineMath: [ ['$','$'],['\\\(','\\\)'] ],\n 
-			  displayMath: [ ['$$','$$'], ['\\\[','\\\]'] ],\n 
-			  processEscapes: true, \n 
-			  processEnvironments: true, \n 
-			  processRefs: true \n
-			}, \n 
-	          options: { \n
-		  	  	ignoreHtmlClass: 'tex2jax_ignore|editor-rich-text' \n 
-			  } \n 
-		  }; \n 
-  </script>";
+	wp_register_script('polyfill', 'https://polyfill.io/v3/polyfill.min.js?features=es6', null, null, true);
+	
+	wp_enqueue_script('polyfill');
+	wp_enqueue_script('tex-mml-chtml', plugins_url( '/public/tex-mml-chtml.js', __FILE__ ));
+	wp_enqueue_script('math-jax-init', plugins_url( '/public/math-jax-init.js', __FILE__ ));
 }
+
 
 add_shortcode('mathjax','addMathJaxConfig');
 
