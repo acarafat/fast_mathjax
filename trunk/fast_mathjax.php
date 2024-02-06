@@ -17,7 +17,7 @@ function addMathJaxConfig() {
 	
 	wp_enqueue_script('polyfill');
 	wp_enqueue_script('tex-mml-chtml', plugins_url( '/public/tex-mml-chtml.js', __FILE__ ));
-	wp_enqueue_script('math-jax-init', plugins_url( '/public/math-jax-init.js', __FILE__ ));
+	wp_enqueue_script('mathjax-init', plugins_url( '/public/mathjax-init.js', __FILE__ ));
 }
 
 
