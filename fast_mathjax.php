@@ -4,7 +4,7 @@
 Plugin Name: Fast MathJax
 Plugin URI: https://github.com/acarafat/fast_mathjax/
 Description: Show beautiful MathJax LaTex in your article without slowing the whole site down.
-Version: 1.0.0
+Version: 1.1.0
 Author: Arafat Rahman, Mubtasim Fuad, Ruhshan Ahmed
 Author URI: https://arftrhmn.net/, https://mubtasimfuad.com/
 License: GPLv3
